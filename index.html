@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.webrtc-experiment.com/RecordRTC.js"></script>
+  </head>
+ <h2>Video with Text Overlay</h2>
+  <video id="videoPlayer" controls width="600">
+      <source src="videoleft.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+  </video>
+  <div id="overlayText">Cricket</div>
+  <br>
+  <!-- Button to start recording -->
+  <button onclick="startRecording()" id="startButton">Start Recording</button>
+  <!-- Button to stop recording and export -->
+  <button onclick="stopRecording()" id="stopButton" disabled>Stop Recording and Export</button>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
+   
+
