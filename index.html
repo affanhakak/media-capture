@@ -8,11 +8,14 @@
     <script src="https://cdn.webrtc-experiment.com/RecordRTC.js"></script>
   </head>
  <h2>Video with Text Overlay</h2>
+ <div id="video">
   <video id="videoPlayer" controls width="600">
-      <source src="videoleft.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-  </video>
-  <div id="overlayText">Cricket</div>
+    <source src="videoleft.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div id="overlayText">Cricket</div>
+ </div>
+
   <br>
   <!-- Button to start recording -->
   <button onclick="startRecording()" id="startButton">Start Recording Video</button>
